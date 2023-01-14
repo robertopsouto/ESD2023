@@ -1,0 +1,4 @@
+module load openmpi/gnu/2.0.4.2 
+module load hpctoolkit/5.3.2_4712
+module load papi/5.5.1.0
+module load papi-devel/5.5.1.0

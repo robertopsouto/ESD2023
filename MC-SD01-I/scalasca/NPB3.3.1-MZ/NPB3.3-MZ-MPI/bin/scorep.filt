@@ -1,0 +1,9 @@
+SCOREP_REGION_NAMES_BEGIN
+  EXCLUDE 
+    binvcrhs_
+    matmul_sub_
+    matvec_sub_
+    lhsinit_
+    binvrhs_
+    exact_solution_
+SCOREP_REGION_NAMES_END

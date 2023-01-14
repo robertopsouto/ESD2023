@@ -49,7 +49,7 @@ F_INC =
 # Global *compile time* flags for Fortran programs
 #---------------------------------------------------------------------------
 #FFLAGS  = -O3 -fopenmp -L/opt/bullxde/perftools/papi-bull/5.4.3.0/lib64 -lpapi
-FFLAGS  = -O3 -fopenmp 
+FFLAGS  = -g -O3 -fopenmp 
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
@@ -98,7 +98,7 @@ C_INC =
 # Global *compile time* flags for C programs
 #---------------------------------------------------------------------------
 #CFLAGS  = -O3 -fopenmp -L/opt/bullxde/perftools/papi-bull/5.4.3.0/lib64 -lpapi
-CFLAGS  = -O3 -fopenmp 
+CFLAGS  = -g -O3 -fopenmp 
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 

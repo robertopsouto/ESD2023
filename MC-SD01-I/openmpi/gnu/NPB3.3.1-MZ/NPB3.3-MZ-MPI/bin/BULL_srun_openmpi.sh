@@ -3,9 +3,9 @@
 #SBATCH --nodes=1                       # here the number of nodes
 #SBATCH --ntasks=1                      # here total number of mpi tasks
 #SBATCH --cpus-per-task=1               # number of cores per node
-#SBATCH -p treinamento              # target partition
+#SBATCH -p cpu_dev                      # target partition
 #SBATCH --threads-per-core=1
-#SBATCH -J NPB_BT-MZ                       # job name
+#SBATCH -J NPB_BT-MZ                    # job name
 #SBATCH --time=00:05:00                 # time limit
 #SBATCH --exclusive                     # to have exclusive use of your nodes
 

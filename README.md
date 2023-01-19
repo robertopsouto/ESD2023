@@ -1,2 +1,4 @@
 ## Escola Supercomputador Santos Dumont 2023
-### Material para o minicurso [MC-SD01-I] Introdução ao ambiente SDUMONT /SLURM
+### Material para os minicursos:
+- [MC-SD01-I] Introdução ao ambiente SDUMONT /SLURM
+- [MC-SD03-I] Introdução á Programação CUDA

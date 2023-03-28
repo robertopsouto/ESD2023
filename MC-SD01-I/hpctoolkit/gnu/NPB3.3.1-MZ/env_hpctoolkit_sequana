@@ -1,0 +1,22 @@
+#!/bin/bash
+
+module load sequana/current
+module load python/3.9.1_sequana
+module load openmpi/gnu/4.1.2+cuda-11.2_sequana
+
+#Load Spack v0.18.1 and HPCToolkit - BEGIN
+
+workdir=${SCRATCH}/invmultifis
+version=v0.18.1
+partition=sequana
+spackdir=${workdir}/tools/spack/${partition}/${version}
+. ${spackdir}/share/spack/setup-env.sh
+
+export SPACK_USER_CONFIG_PATH=${workdir}/.spack/${partition}/${version}
+export SPACK_USER_CACHE_PATH=${SPACK_USER_CONFIG_PATH}/tmp
+
+spack load hpctoolkit@2022.05.15
+
+#Load Spack v0.18.1 and HPCToolkit - END
+
+

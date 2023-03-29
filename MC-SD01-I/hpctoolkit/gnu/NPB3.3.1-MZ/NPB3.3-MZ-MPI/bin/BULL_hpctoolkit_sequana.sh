@@ -47,8 +47,7 @@ executable="${bench}.${class}.$SLURM_NTASKS"
 
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
-#mpirun -np $SLURM_NTASKS \
-srun --resv-ports -n $SLURM_NTASKS \
+mpirun -np $SLURM_NTASKS \
 hpcrun -e CPUTIME -t \
 ./${executable}
 

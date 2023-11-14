@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1                      # here total number of mpi tasks
 #SBATCH --ntasks-per-node=1             # here ppn = number of process per node
 #SBATCH --cpus-per-task=1               # number of cores per node
-#SBATCH -p cpu_dev_sequana              # target partition
+#SBATCH -p sequana_cpu_dev               # target partition
 #SBATCH --threads-per-core=1
 #SBATCH -J NPB_BT-MZ                       # job name
 #SBATCH --time=00:10:00                 # time limit

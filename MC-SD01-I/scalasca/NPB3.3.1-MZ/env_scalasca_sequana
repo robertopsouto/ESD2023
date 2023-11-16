@@ -16,7 +16,7 @@ spackdir=${workdir}/spack/${partition}/${version}
 
 export SPACK_USER_CONFIG_PATH=${workdir}/.spack/${partition}/${version}
 
-
+spack load scalasca
 #export SPACK_USER_CACHE_PATH=${SPACK_USER_CONFIG_PATH}/tmp
 #export TMP=${SPACK_USER_CACHE_PATH}
 #export TMPDIR=${SPACK_USER_CACHE_PATH}
